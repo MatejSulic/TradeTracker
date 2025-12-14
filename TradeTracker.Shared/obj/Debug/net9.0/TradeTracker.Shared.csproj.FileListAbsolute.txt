@@ -9,3 +9,4 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/refint/TradeTracker.Shared.dll
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.pdb
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/ref/TradeTracker.Shared.dll
+/home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.sourcelink.json
