@@ -2,8 +2,9 @@
 @using System.Net.Http.Json
 @inject HttpClient Http 
 @using TradeTracker.Shared.Models 
+@using TradeTracker.Client.Components
+@using MudBlazor
 
-<h3>Přehled všech obchodů</h3>
 
 @if (trades == null)
 {
@@ -15,7 +16,16 @@ else if (trades.Length == 0)
 }
 else
 {
+    <MudGrid Spacing="3" Class="p-3 m-3">
+        
     
+    @foreach (var trade in trades)
+    {
+        <MudItem xs="12" sm="6" md="4" lg="3">
+        <TradeCard Trade="trade" />
+        </MudItem>
+    }
+    </MudGrid>
     
 }
 
