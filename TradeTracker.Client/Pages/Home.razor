@@ -1,13 +1,37 @@
-﻿
+﻿@page "/"
+@using System.Net.Http.Json
+@inject HttpClient Http 
+@using TradeTracker.Shared.Models 
 
-@page "/"
+<h3>Přehled všech obchodů</h3>
 
-<PageTitle>Home</PageTitle>
+@if (trades == null)
+{
+    <p><em>Načítání obchodních dat...</em></p>
+}
+else if (trades.Length == 0)
+{
+    <p>Nebyly nalezeny žádné obchody.</p>
+}
+else
+{
+    
+    
+}
 
-<h1>Hello, world!</h1>
+@code {
+    private Trade[]? trades; 
 
-<MudText Typo="Typo.h1">Welcome to your new app.</MudText>
-<MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" />
-<MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Primary" aria-label="github" />
-<MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Secondary" aria-label="add to favorite" />
-<MudIconButton Icon="@Icons.Material.Filled.Share" Disabled="true" aria-label="share" />
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            trades = await Http.GetFromJsonAsync<Trade[]>("api/Trade");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Chyba při načítání obchodů: {ex.Message}");
+            trades = Array.Empty<Trade>();
+        }
+    }
+}

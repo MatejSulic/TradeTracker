@@ -3,6 +3,17 @@ using TradeTracker.API.Data;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policy =>
+        {
+            // Povolí požadavky POUZE z adresy Klienta (http://localhost:5017)
+            policy.WithOrigins("http://localhost:5017") 
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 // Přidání DbContext + SQLite
 builder.Services.AddDbContext<TradeTrackerDbContext>(options =>
@@ -28,6 +39,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 app.UseAuthorization();
 app.MapControllers();
 

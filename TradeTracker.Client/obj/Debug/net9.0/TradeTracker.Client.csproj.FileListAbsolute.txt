@@ -199,8 +199,6 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XmlSerializer.xhq3csvynu.wasm
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XPath.jicxtf86kr.wasm
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XPath.XDocument.81ye7boh3q.wasm
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.colrri6sqe.pdb
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.3okr1f30c5.wasm
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/WindowsBase.i7qip04bb5.wasm
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Data.Common.d1yt6etc0m.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Physical.dwth4q8v12.wasm.gz
@@ -326,7 +324,6 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Data.ne1dd0hox9.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.Tracing.xfrk7rbs8k.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.1hedeg1s9o.wasm.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.colrri6sqe.pdb.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Text.RegularExpressions.4nbklv63lu.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Text.Encoding.o1hfsv9qlu.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.Process.1qino8xg16.wasm.gz
@@ -404,7 +401,6 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Security.AccessControl.evo3dex3li.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.ZipFile.2s8hnxmuzt.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Thread.lbfyamq3pf.wasm.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.3okr1f30c5.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Tasks.Parallel.eo4laf6ebb.wasm.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/TradeTracker.Client.staticwebassets.runtime.json
 /home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/TradeTracker.Client.staticwebassets.endpoints.json
@@ -1067,8 +1063,6 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/nlofv7dnok-tjcz0u77k5.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/eezzccswhd-tptq2av103.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/uca7hxjtyn-lfu7j35m59.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-3okr1f30c5.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-colrri6sqe.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/staticwebassets.build.json
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/staticwebassets.development.json
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1101,10 +1095,16 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/dzxaq0rzan-bvn14pws96.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/w49mj8b5so-o4jp2hcm79.gz
 /home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/391t2j3kaz-mwezwdoi15.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.p31an2acz4.pdb
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.c79hqwfhmo.wasm
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.c79hqwfhmo.wasm.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.p31an2acz4.pdb.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-c79hqwfhmo.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-p31an2acz4.gz
-/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-inb0v8mb7l.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.amtwl2gme6.pdb
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.4h14yqot1i.wasm
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.amtwl2gme6.pdb.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.4h14yqot1i.wasm.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-4h14yqot1i.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-amtwl2gme6.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.h8p1ng98pd.pdb
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.dz42e6ucfu.wasm
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.dz42e6ucfu.wasm.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.h8p1ng98pd.pdb.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-dz42e6ucfu.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-h8p1ng98pd.gz
+/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-p9fpp8mvao.gz
