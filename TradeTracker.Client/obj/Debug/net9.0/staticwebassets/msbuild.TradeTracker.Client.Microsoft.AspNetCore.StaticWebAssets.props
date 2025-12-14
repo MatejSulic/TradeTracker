@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j34pworivi</Fingerprint>
-      <Integrity>AW+cRl7d04eBrvJ7MhzyMaizVTjXbCLiMKF1F/a/QXg=</Integrity>
+      <Fingerprint>4qw7kyp2ev</Fingerprint>
+      <Integrity>bA2P+wHKqWAC0WWw5LRX1BMkspqs/y/5l6QiY/YP3cI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -660,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3ybwwpan54</Fingerprint>
-      <Integrity>e4gItwFQhRMBHSQlVYKFWEcptBadcxxH5jBzqhffsL8=</Integrity>
+      <Fingerprint>p6jz4qwrnm</Fingerprint>
+      <Integrity>4TdW0e0Cm2Ua9LbhgVuoQk7wCQMy9HWueowARYZYLrU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js'))</OriginalItemSpec>
@@ -678,8 +678,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0ltelm6ldh</Fingerprint>
-      <Integrity>RHoFuiy66qsiY3wa3ZLBY1PtYtb71Tmsuigu1NaiTMU=</Integrity>
+      <Fingerprint>ovm1i2lnkh</Fingerprint>
+      <Integrity>7CugkiU6Eeq0nSisyMpepxwXcRq59v3UaxL7msLsJb0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</OriginalItemSpec>
@@ -696,8 +696,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0bfvcc5t5b</Fingerprint>
-      <Integrity>PCtj0BohabVkN6fj9MpXc/06gxu35YG9jLLcSTZtsVg=</Integrity>
+      <Fingerprint>5w1a2cyk2u</Fingerprint>
+      <Integrity>FTrxTNz7cNk8Q9J/FSe5W2GLsAf32zg77x4SKUf/rsI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map'))</OriginalItemSpec>
@@ -732,8 +732,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rf3kwxm43n</Fingerprint>
-      <Integrity>mQ27MJj75pDyB96v/EcMAZsBjQ1cOVyL/hdVt4siDpY=</Integrity>
+      <Fingerprint>rn4aezo0mc</Fingerprint>
+      <Integrity>F/DBJEDH5ftztc6R2Oz/rB6v4PB2aSKEXfprvFMszXk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'))</OriginalItemSpec>
@@ -750,8 +750,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>odvbqrvbwc</Fingerprint>
-      <Integrity>nMkBhbdtv/9AXbRnnCVFh9ueM5uZh76sZRRn4Jm8K20=</Integrity>
+      <Fingerprint>mh40mzkkfy</Fingerprint>
+      <Integrity>RmcGf4ncbkj3mXujzupsdxKA7pajV3BI1pUSBJS+dqU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js'))</OriginalItemSpec>
@@ -768,8 +768,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c1enztlpmd</Fingerprint>
-      <Integrity>0M0w4uzOs/INtoPgdAZf2TKHoA1smESJrw/7ntXU738=</Integrity>
+      <Fingerprint>ol2cycaec8</Fingerprint>
+      <Integrity>LMrJObfsK/8D1dQrB77CSvBR1/X7o6cgNS/e0Gsc0bY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map'))</OriginalItemSpec>
@@ -804,8 +804,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pp0x829jup</Fingerprint>
-      <Integrity>I97N52w2wXSxHO/fv2WC5uGwnM0lBdPnJFXYnqB1JX4=</Integrity>
+      <Fingerprint>7x2lcj9p12</Fingerprint>
+      <Integrity>9XVevACe8O/Sb2xeLC+HFJgdL45IR+IDibumrFlfQC0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map'))</OriginalItemSpec>
@@ -822,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xpr6bt7u8c</Fingerprint>
-      <Integrity>1UAgiT8y8sIQmOnRBAA9fTxbk9xygmtXPMjjcZhp9v4=</Integrity>
+      <Fingerprint>owwpi2hgo9</Fingerprint>
+      <Integrity>2BzlxdpWlXwcsgFa2JdCzzZmzmyWE3zE/lsXI4de3VM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map'))</OriginalItemSpec>
@@ -858,8 +858,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1cknvm2wz0</Fingerprint>
-      <Integrity>T4KxM5PRso/4xJtzGr5+TV1FKY6hXyLY01XJFiwa8U4=</Integrity>
+      <Fingerprint>a51obaz5dz</Fingerprint>
+      <Integrity>MiGrT3vzMzKgiYKx/4dU22A5KslrLksHy7NZVXHCcbk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map'))</OriginalItemSpec>

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TradeTracker.Client",
   "resources": {
-    "hash": "sha256-6s4I3mG/4Eb1NZQVvDz7vmPRBK9c2Tgw35gl5/oTyhQ=",
+    "hash": "sha256-gGut421cDlZlSJfN18J+uoqsFf7nqTc2XjKk0mA95r0=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.3zig3jhz80.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -19,12 +19,15 @@
       "Microsoft.Extensions.FileProviders.Abstractions.socmvxw8xz.wasm": "Microsoft.Extensions.FileProviders.Abstractions.wasm",
       "Microsoft.Extensions.FileProviders.Physical.dwth4q8v12.wasm": "Microsoft.Extensions.FileProviders.Physical.wasm",
       "Microsoft.Extensions.FileSystemGlobbing.9qyocthipm.wasm": "Microsoft.Extensions.FileSystemGlobbing.wasm",
+      "Microsoft.Extensions.Localization.bvn14pws96.wasm": "Microsoft.Extensions.Localization.wasm",
+      "Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm": "Microsoft.Extensions.Localization.Abstractions.wasm",
       "Microsoft.Extensions.Logging.yld1sq2gan.wasm": "Microsoft.Extensions.Logging.wasm",
       "Microsoft.Extensions.Logging.Abstractions.br6vbmv57g.wasm": "Microsoft.Extensions.Logging.Abstractions.wasm",
       "Microsoft.Extensions.Options.1hedeg1s9o.wasm": "Microsoft.Extensions.Options.wasm",
       "Microsoft.Extensions.Primitives.k5sti8r8fu.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.80jwj6exja.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.ntyvhbvn6b.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
+      "MudBlazor.mwezwdoi15.wasm": "MudBlazor.wasm",
       "Microsoft.CSharp.42nruzkdkt.wasm": "Microsoft.CSharp.wasm",
       "Microsoft.VisualBasic.Core.4bggtv24el.wasm": "Microsoft.VisualBasic.Core.wasm",
       "Microsoft.VisualBasic.4vzo9ck06b.wasm": "Microsoft.VisualBasic.wasm",
@@ -201,10 +204,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "TradeTracker.Shared.qltef7lxtg.wasm": "TradeTracker.Shared.wasm",
-      "TradeTracker.Shared.iauffsdlv2.pdb": "TradeTracker.Shared.pdb",
-      "TradeTracker.Client.1158xzwnh0.wasm": "TradeTracker.Client.wasm",
-      "TradeTracker.Client.jm3g9y41e7.pdb": "TradeTracker.Client.pdb"
+      "TradeTracker.Shared.3okr1f30c5.wasm": "TradeTracker.Shared.wasm",
+      "TradeTracker.Shared.colrri6sqe.pdb": "TradeTracker.Shared.pdb",
+      "TradeTracker.Client.c79hqwfhmo.wasm": "TradeTracker.Client.wasm",
+      "TradeTracker.Client.p31an2acz4.pdb": "TradeTracker.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.noby4tlk4d.js": "sha256-p9eEzXhQIsI0a5bBJhfzW15iRafgplTxT8XrO5FiH9o="
@@ -241,12 +244,15 @@
       "Microsoft.Extensions.FileProviders.Abstractions.socmvxw8xz.wasm": "sha256-RHPF1kNXj4qNQg478jctDDbkYgxpT6kUDUUmtNSHdK4=",
       "Microsoft.Extensions.FileProviders.Physical.dwth4q8v12.wasm": "sha256-nR2DtAHQRgEKOdEyzDe7zo8qG5p55sVj22Bs8H+W+x8=",
       "Microsoft.Extensions.FileSystemGlobbing.9qyocthipm.wasm": "sha256-L4oked4Fv62X0nnMtEPPe3p4bhhxxJF5SfRJDxXMtY0=",
+      "Microsoft.Extensions.Localization.bvn14pws96.wasm": "sha256-6UgMJoVZBfDdfzYR0aKVK6BWArxpXC1qiQDDjiXw/L4=",
+      "Microsoft.Extensions.Localization.Abstractions.o4jp2hcm79.wasm": "sha256-GJNjpp2mlMIYboBhzukWw5r2Z24PsB0E9Gj9VoTGKEI=",
       "Microsoft.Extensions.Logging.yld1sq2gan.wasm": "sha256-2qDUcIUV0w29UvKl09lXWJ1jm6FTaeHBbhu0V0+WaPk=",
       "Microsoft.Extensions.Logging.Abstractions.br6vbmv57g.wasm": "sha256-92aLO1OtAvZA1QfKk2CounmNTaQRdJ3HWC5alNlExA8=",
       "Microsoft.Extensions.Options.1hedeg1s9o.wasm": "sha256-e1eOhgh3W8XjzhMa+cmgK8Dk9HAjmYONyG/8Bp9j/IE=",
       "Microsoft.Extensions.Primitives.k5sti8r8fu.wasm": "sha256-OKpoi3/865XYL/6nrm/2WBti+bLknKlqO7mEUJ/pQUA=",
       "Microsoft.JSInterop.80jwj6exja.wasm": "sha256-OBPSXi99+fJMaqLZ34UTBsoyl3ZlApu4u/RNSPljP54=",
       "Microsoft.JSInterop.WebAssembly.ntyvhbvn6b.wasm": "sha256-9dAjljgkpc26ys+VBDilPgkark902bTSQzJ5hryvYDQ=",
+      "MudBlazor.mwezwdoi15.wasm": "sha256-NqqmRDAnNGFOUST8TWt07KcU6YW3hGxP62PdgDMCah4=",
       "Microsoft.CSharp.42nruzkdkt.wasm": "sha256-fHdXMBuT8VQwuYPTLam5h48nseyD1A8h24mSMdjXZyA=",
       "Microsoft.VisualBasic.Core.4bggtv24el.wasm": "sha256-cBBKlOfrEV/1xfjZwNxoPGwo7K7q5v6X2LqgawuJ/Vk=",
       "Microsoft.VisualBasic.4vzo9ck06b.wasm": "sha256-kGQHJNyOxVUzH6Ci/S8DxZPUjWwI7HFdStMiLRfvWDw=",
@@ -414,12 +420,12 @@
       "WindowsBase.i7qip04bb5.wasm": "sha256-Lg5W8BM50Cpl1dgTrG9RQOrBRKOJq6H1t5sH3yf4KDU=",
       "mscorlib.ijjuvl21w4.wasm": "sha256-ku4DyQX7IfTdwPwDlrz9odvCs4mrgsJl0fNaqY56KOI=",
       "netstandard.jgp13znru0.wasm": "sha256-I7arRnyxWh5PItslQKjzLIG7EpohJACm7p/7K8eD0YA=",
-      "TradeTracker.Shared.qltef7lxtg.wasm": "sha256-oveKoXPlLWji0m9NavXu2EwPe7UMkHNKYRLEm5KNCdQ=",
-      "TradeTracker.Client.1158xzwnh0.wasm": "sha256-dbjiUNsU+oAN6pK1POR6QwTWDzMB0709LAWc9FhEA/k="
+      "TradeTracker.Shared.3okr1f30c5.wasm": "sha256-nfFldn7W9dbQkDxMxN64aFTtdJrA+fZ7a06o+CDChSA=",
+      "TradeTracker.Client.c79hqwfhmo.wasm": "sha256-2FLVuEMTv71IysMd/SIOAreExhKt4i9bkNv1d6KkgLQ="
     },
     "pdb": {
-      "TradeTracker.Shared.iauffsdlv2.pdb": "sha256-5kl07ath+tW60jeroOCpNIXf1+hU2ES8stj8S1N+Q1c=",
-      "TradeTracker.Client.jm3g9y41e7.pdb": "sha256-pZjP2vhV/6/fHWLE+KthqWUUaSdQ2IBGR2WSxFiljCs="
+      "TradeTracker.Shared.colrri6sqe.pdb": "sha256-hHad22CwYxfEGDIru/5Jk4YWstPYm2BZtYfwqhLfsXc=",
+      "TradeTracker.Client.p31an2acz4.pdb": "sha256-63zRKSn77SX0Ap7+aOX7k9t8EdusarMytx/U3hH1jgM="
     }
   },
   "cacheBootResources": true,

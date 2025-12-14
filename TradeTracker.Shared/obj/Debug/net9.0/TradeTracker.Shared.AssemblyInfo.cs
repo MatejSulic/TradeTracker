@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeTracker.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be2c6820dd495a20fcdc72798114ffc24dd705d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+744760546824574248289f5bdcc47bcaa66f6d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeTracker.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeTracker.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

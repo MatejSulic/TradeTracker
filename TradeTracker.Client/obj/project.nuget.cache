@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "opFz3otAwJQ=",
+  "dgSpecHash": "7QyLzA/bXFk=",
   "success": true,
   "projectFilePath": "/home/matej/Projects/TradeTracker/TradeTracker.Client/TradeTracker.Client.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "/home/matej/.nuget/packages/microsoft.extensions.fileproviders.abstractions/9.0.11/microsoft.extensions.fileproviders.abstractions.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.extensions.fileproviders.physical/9.0.11/microsoft.extensions.fileproviders.physical.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.extensions.filesystemglobbing/9.0.11/microsoft.extensions.filesystemglobbing.9.0.11.nupkg.sha512",
+    "/home/matej/.nuget/packages/microsoft.extensions.localization/9.0.1/microsoft.extensions.localization.9.0.1.nupkg.sha512",
+    "/home/matej/.nuget/packages/microsoft.extensions.localization.abstractions/9.0.1/microsoft.extensions.localization.abstractions.9.0.1.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.extensions.logging/9.0.11/microsoft.extensions.logging.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.11/microsoft.extensions.logging.abstractions.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.extensions.options/9.0.11/microsoft.extensions.options.9.0.11.nupkg.sha512",
@@ -30,6 +32,7 @@
     "/home/matej/.nuget/packages/microsoft.jsinterop.webassembly/9.0.11/microsoft.jsinterop.webassembly.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.net.illink.tasks/9.0.11/microsoft.net.illink.tasks.9.0.11.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.11/microsoft.net.sdk.webassembly.pack.9.0.11.nupkg.sha512",
+    "/home/matej/.nuget/packages/mudblazor/8.15.0/mudblazor.8.15.0.nupkg.sha512",
     "/home/matej/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/9.0.11/microsoft.netcore.app.runtime.mono.browser-wasm.9.0.11.nupkg.sha512"
   ],
   "logs": []
