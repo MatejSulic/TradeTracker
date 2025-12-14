@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mfOgIRjhC/nCbXVbdCavficuHfz2uf9n8l32NthK8Vc=",
+  "Source": "TradeTracker.API",
+  "BasePath": "_content/TradeTracker.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
