@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TradeTracker.API.Data;
 using TradeTracker.API.Models;
+using TradeTracker.Shared.Models;
 
 namespace TradeTracker.API.Controllers;
 
@@ -16,13 +17,13 @@ public class TradeController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Trade>>> GetTrades()
+    public async Task<ActionResult<IEnumerable<Models.Trade>>> GetTrades()
     {
         return await _context.Trades.ToListAsync();
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Trade>> GetTrade(int id){
+    public async Task<ActionResult<Models.Trade>> GetTrade(int id){
         var trade = await _context.Trades.FindAsync(id);
         if (trade == null)
         {
@@ -32,7 +33,7 @@ public class TradeController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<Trade>> CreateTrade(Trade trade)
+    public async Task<ActionResult<Models.Trade>> CreateTrade(Trade trade)
     {
         _context.Trades.Add(trade);
         await _context.SaveChangesAsync();
@@ -40,7 +41,7 @@ public class TradeController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateTrade(int id, Trade trade)
+    public async Task<IActionResult> UpdateTrade(int id, TradeToShare trade)
     {
         if (id != trade.Id)
         {
@@ -65,6 +66,24 @@ public class TradeController : ControllerBase
         return NoContent();
     }
 
+    [HttpPost("metrics")]
+    public async Task<ActionResult<MetricsResponse>> GetMetrics(MetricsRequest request)
+    {
 
         
+        List<Models.Trade> trades = _context.GetFilteredTrades(request);
+        CountingFunctions counter = new CountingFunctions();
+        var response = new MetricsResponse
+        {
+            TotalTrades = counter.GetTotalTrades(trades),
+            WinRate = counter.CalculateWinRate(trades),
+            AverageRRR = counter.CalculateAverageRRR(trades),
+            AveragePnL = counter.CalculateAveragePnL(trades),
+            TotalPnL = counter.CalculateTotalPnL(trades),
+            MaxWinStreak = counter.CalculateMaxWinStreak(trades),
+            MaxLossStreak = counter.CalculateMaxLossStreak(trades)
+        };
+
+        return Ok(response);
+    }
 }

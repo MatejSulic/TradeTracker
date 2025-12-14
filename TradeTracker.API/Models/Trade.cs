@@ -28,11 +28,11 @@ public class Trade
     //<summary>
     /// Prices associated with the trade
     ///</summary>
-    public decimal EntryPrice { get; set; }
-    public decimal TakeProfitPrice { get; set; }
-    public decimal StopLossPrice { get; set; }
+    public double EntryPrice { get; set; }
+    public double TakeProfitPrice { get; set; }
+    public double StopLossPrice { get; set; }
 
-    public decimal PnL { get; set; }
+    public double PnL { get; set; }
 
     public string? Notes { get; set; }
 

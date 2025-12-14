@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TradeTracker.Client",
   "resources": {
-    "hash": "sha256-ZOuHXec8xwr1OmPhb6yEeRjCdlDP+we8qhgBlAfxHQY=",
+    "hash": "sha256-gcbYrfrdT07d7GicB3UpqeDcc0ptpvBwinky5pMVgks=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.is84zt9n9u.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.3zig3jhz80.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -204,10 +204,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "TradeTracker.Shared.hu9dr73yya.wasm": "TradeTracker.Shared.wasm",
-      "TradeTracker.Shared.avuflyvd73.pdb": "TradeTracker.Shared.pdb",
-      "TradeTracker.Client.nexq367mos.wasm": "TradeTracker.Client.wasm",
-      "TradeTracker.Client.vribkq53xt.pdb": "TradeTracker.Client.pdb"
+      "TradeTracker.Shared.a0iospse16.wasm": "TradeTracker.Shared.wasm",
+      "TradeTracker.Shared.p1m7c3s08m.pdb": "TradeTracker.Shared.pdb",
+      "TradeTracker.Client.qyfjh98woc.wasm": "TradeTracker.Client.wasm",
+      "TradeTracker.Client.ax52hmi7j8.pdb": "TradeTracker.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.noby4tlk4d.js": "sha256-p9eEzXhQIsI0a5bBJhfzW15iRafgplTxT8XrO5FiH9o="
@@ -420,12 +420,12 @@
       "WindowsBase.i7qip04bb5.wasm": "sha256-Lg5W8BM50Cpl1dgTrG9RQOrBRKOJq6H1t5sH3yf4KDU=",
       "mscorlib.ijjuvl21w4.wasm": "sha256-ku4DyQX7IfTdwPwDlrz9odvCs4mrgsJl0fNaqY56KOI=",
       "netstandard.jgp13znru0.wasm": "sha256-I7arRnyxWh5PItslQKjzLIG7EpohJACm7p/7K8eD0YA=",
-      "TradeTracker.Shared.hu9dr73yya.wasm": "sha256-52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=",
-      "TradeTracker.Client.nexq367mos.wasm": "sha256-n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg="
+      "TradeTracker.Shared.a0iospse16.wasm": "sha256-KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=",
+      "TradeTracker.Client.qyfjh98woc.wasm": "sha256-bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs="
     },
     "pdb": {
-      "TradeTracker.Shared.avuflyvd73.pdb": "sha256-+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=",
-      "TradeTracker.Client.vribkq53xt.pdb": "sha256-y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg="
+      "TradeTracker.Shared.p1m7c3s08m.pdb": "sha256-XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=",
+      "TradeTracker.Client.ax52hmi7j8.pdb": "sha256-fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8="
     }
   },
   "cacheBootResources": true,

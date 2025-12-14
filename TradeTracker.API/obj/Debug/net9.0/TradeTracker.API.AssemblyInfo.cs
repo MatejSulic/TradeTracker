@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeTracker.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8c9ba854adc03df6bc4d6a3bce72c9dfb41668")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd9ff2abfe11f83c32daa38555454c7af309f2e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeTracker.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeTracker.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,32 +16,35 @@ else if (trades.Length == 0)
 }
 else
 {
-    <MudGrid Spacing="3" Class="p-3 m-3">
-        
-    
+
+
+
+
+   <MudContainer Class="d-flex flex-wrap gap-2" Spacing="2">
+
     @foreach (var trade in trades)
     {
-        <MudItem xs="12" sm="6" md="4" lg="3">
         <TradeCard Trade="trade" />
-        </MudItem>
     }
-    </MudGrid>
+
+   </MudContainer>
+
     
 }
 
 @code {
-    private Trade[]? trades; 
+    private TradeToShare[]? trades; 
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            trades = await Http.GetFromJsonAsync<Trade[]>("api/Trade");
+            trades = await Http.GetFromJsonAsync<TradeToShare[]>("api/Trade");
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Chyba při načítání obchodů: {ex.Message}");
-            trades = Array.Empty<Trade>();
+            trades = Array.Empty<TradeToShare>();
         }
     }
 }

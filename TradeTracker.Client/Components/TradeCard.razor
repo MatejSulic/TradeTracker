@@ -1,24 +1,135 @@
 @using TradeTracker.Shared.Models
+@using TradeTracker.Shared.Enums
 
+<MudCard Width="300px"
+         Elevation="2"
+         Outlined="true">
+    <MudCardContent Class="pb-2">
 
-<MudCard>
-    <MudCardContent>
-        <MudText Typo="Typo.h6">@Trade.Id</MudText>
-        <MudText>Symbol: @Trade.Symbol</MudText>
-        <MudText>Typ: @Trade.Type</MudText>
-        <MudText>Výsledek: @Trade.Result</MudText>
-        <MudText>Datum: @Trade.TradeDate.ToShortDateString()</MudText>
+        <!-- HLAVIČKA -->
+        <div class="d-flex justify-space-between align-center mb-3">
+
+            <div class="d-flex align-center">
+                <MudAvatar Size="Size.Medium"
+                           Color="@GetTradeTypeColor()"
+                           Variant="Variant.Filled"
+                           Class="mr-2">
+                    @Trade.Symbol
+                </MudAvatar>
+
+                <div>
+                    <MudText Typo="Typo.subtitle1" Class="fw-600">
+                        @Trade.Symbol
+                    </MudText>
+                    <MudText Typo="Typo.caption" Class="mud-text-secondary">
+                        @Trade.TradeDate.ToShortDateString()
+                    </MudText>
+                </div>
+            </div>
+
+            <MudIconButton Icon="@Icons.Material.Filled.Edit"
+                           Size="Size.Small"
+                           Color="Color.Default"
+                           OnClick="OnEditClicked" />
+        </div>
+
+        <!-- TAGY -->
+        <div class="d-flex justify-space-between align-center mb-3">
+
+            <MudChip T=string Size="Size.Small"
+                     Color="@GetTradeTypeColor()"
+                     Variant="Variant.Outlined">
+                @Trade.Type
+            </MudChip>
+
+            <MudChip T=string Size="Size.Small"
+                     Color="@GetResultColor()"
+                     Variant="Variant.Filled">
+                @Trade.Result
+            </MudChip>
+
+        </div>
+
+        <MudDivider Class="my-2"/>
+
+        <!-- RRR -->
+        <div class="text-center mt-3">
+            <MudText Typo="Typo.caption" Class="mud-text-secondary">
+                Risk / Reward
+            </MudText>
+
+            <MudText Typo="Typo.h4">
+                @CalculateRRR().ToString("F2")
+            </MudText>
+        </div>
+
     </MudCardContent>
+
+    <!-- FOOTER -->
+    <MudCardActions Class="justify-end pt-0">
+        <MudIconButton Icon="@Icons.Material.Filled.OpenInNew"
+                       Size="Size.Small"
+                       Color="Color.Primary"
+                       OnClick="OnDetailsClicked" />
+    </MudCardActions>
+
 </MudCard>
 
 
 
 @code {
     [Parameter]
-    [EditorRequired] // Upozorní, že parametr musí být nastaven
-    public Trade Trade { get; set; } = default!;
+    [EditorRequired]
+    public TradeToShare Trade { get; set; } = default!;
 
-
-
+    // EventCallback pro externí obsluhu kliknutí na Edit
+    [Parameter]
+    public EventCallback OnEdit { get; set; }
     
+    // EventCallback pro externí obsluhu kliknutí na Detaily
+    [Parameter]
+    public EventCallback OnDetails { get; set; }
+
+
+    public double CalculateRRR()
+    {
+        double risk = Math.Abs(Trade.EntryPrice - Trade.StopLossPrice);
+        double reward = Math.Abs(Trade.TakeProfitPrice - Trade.EntryPrice);
+        if (risk == 0) return 0;
+        return reward / risk;
+    }
+
+    private Color GetResultColor()
+    {
+        return Trade.Result switch
+        {
+            TradeResult.Win => Color.Success,
+            TradeResult.Loss => Color.Error,
+            TradeResult.Breakeven => Color.Warning,
+            _ => Color.Info
+        };
+    }
+
+
+    private Color GetTradeTypeColor()
+    {
+        return Trade.Type switch
+        {
+            TradeType.Long => Color.Primary,
+            TradeType.Short => Color.Error,
+            _ => Color.Info
+        };
+    }
+    
+    // Metoda volaná při kliknutí na ikonu Edit
+    private Task OnEditClicked()
+    {
+        return OnEdit.InvokeAsync(null);
+    }
+    
+    // Metoda volaná při kliknutí na ikonu Detaily
+    private Task OnDetailsClicked()
+    {
+        return OnDetails.InvokeAsync(null);
+    }
 }

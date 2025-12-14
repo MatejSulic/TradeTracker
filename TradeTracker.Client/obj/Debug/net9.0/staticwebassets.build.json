@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OfubkpThLW343I/XrJITLe8T42zhl2FK1I0djCQ0oQo=",
+  "Hash": "2iO03pexz5DjiPm7e5qzzZAqjHN9OZIasgsj63VxneQ=",
   "Source": "TradeTracker.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "7ch7b64tvi",
-      "Integrity": "h5YPrBN5hag5/xZQ7UTLKoIQCcpritlPfaNTfrMjhig=",
+      "Fingerprint": "cdgoo2oh5s",
+      "Integrity": "IHdBW8e1qruOuvKssx+P18SUi+oBvH8TuQii1/9I3UU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -4357,8 +4357,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "vribkq53xt",
-      "Integrity": "y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg=",
+      "Fingerprint": "ax52hmi7j8",
+      "Integrity": "fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/TradeTracker.Client.pdb"
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "nexq367mos",
-      "Integrity": "n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg=",
+      "Fingerprint": "qyfjh98woc",
+      "Integrity": "bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/webcil/TradeTracker.Client.wasm"
@@ -4399,8 +4399,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "avuflyvd73",
-      "Integrity": "+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=",
+      "Fingerprint": "p1m7c3s08m",
+      "Integrity": "XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Shared/bin/Debug/net9.0/TradeTracker.Shared.pdb"
@@ -4420,8 +4420,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "hu9dr73yya",
-      "Integrity": "52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=",
+      "Fingerprint": "a0iospse16",
+      "Integrity": "KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/webcil/TradeTracker.Shared.wasm"
@@ -5666,7 +5666,7 @@
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Security.Principal.wasm"
     },
     {
-      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-7ch7b64tvi.gz",
+      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-cdgoo2oh5s.gz",
       "SourceId": "TradeTracker.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/",
@@ -5680,8 +5680,8 @@
       "RelatedAsset": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t2gxwmsc05",
-      "Integrity": "pccaIDFxZOAeTsDxuYlu28NgznBR6ccZ2ShA3WGQgME=",
+      "Fingerprint": "fqmz6dnr3v",
+      "Integrity": "KVios0IDbdTgVe6bBF/on4ij8Ks+aiBa5F8IM9+g/ZU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -5960,12 +5960,12 @@
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Loader.wasm"
     },
     {
-      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-nexq367mos.gz",
+      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-qyfjh98woc.gz",
       "SourceId": "TradeTracker.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/TradeTracker.Client#[.{fingerprint=nexq367mos}]!.wasm.gz",
+      "RelativePath": "_framework/TradeTracker.Client#[.{fingerprint=qyfjh98woc}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5974,8 +5974,8 @@
       "RelatedAsset": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t8qpwpkxq0",
-      "Integrity": "4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s=",
+      "Fingerprint": "0q6ewzxlkv",
+      "Integrity": "eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.wasm"
@@ -7787,12 +7787,12 @@
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Options.wasm"
     },
     {
-      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-avuflyvd73.gz",
+      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-p1m7c3s08m.gz",
       "SourceId": "TradeTracker.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/TradeTracker.Shared#[.{fingerprint=avuflyvd73}]!.pdb.gz",
+      "RelativePath": "_framework/TradeTracker.Shared#[.{fingerprint=p1m7c3s08m}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7801,8 +7801,8 @@
       "RelatedAsset": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q2wuuk6n8m",
-      "Integrity": "4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY=",
+      "Fingerprint": "i2aigfc4rm",
+      "Integrity": "em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.pdb"
@@ -9215,12 +9215,12 @@
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-vribkq53xt.gz",
+      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-ax52hmi7j8.gz",
       "SourceId": "TradeTracker.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/TradeTracker.Client#[.{fingerprint=vribkq53xt}]!.pdb.gz",
+      "RelativePath": "_framework/TradeTracker.Client#[.{fingerprint=ax52hmi7j8}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9229,8 +9229,8 @@
       "RelatedAsset": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5cy809momr",
-      "Integrity": "1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4=",
+      "Fingerprint": "en64vjg31z",
+      "Integrity": "qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.pdb"
@@ -9845,12 +9845,12 @@
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Thread.wasm"
     },
     {
-      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-hu9dr73yya.gz",
+      "Identity": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-a0iospse16.gz",
       "SourceId": "TradeTracker.Client",
       "SourceType": "Computed",
       "ContentRoot": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/TradeTracker.Shared#[.{fingerprint=hu9dr73yya}]!.wasm.gz",
+      "RelativePath": "_framework/TradeTracker.Shared#[.{fingerprint=a0iospse16}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9859,8 +9859,8 @@
       "RelatedAsset": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zc5mo3v937",
-      "Integrity": "o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ=",
+      "Fingerprint": "k5mgignygo",
+      "Integrity": "KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.wasm"
@@ -11347,11 +11347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h5YPrBN5hag5/xZQ7UTLKoIQCcpritlPfaNTfrMjhig=\""
+          "Value": "\"IHdBW8e1qruOuvKssx+P18SUi+oBvH8TuQii1/9I3UU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11361,18 +11361,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-h5YPrBN5hag5/xZQ7UTLKoIQCcpritlPfaNTfrMjhig="
+          "Value": "sha256-IHdBW8e1qruOuvKssx+P18SUi+oBvH8TuQii1/9I3UU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-7ch7b64tvi.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-cdgoo2oh5s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079157761"
+          "Quality": "0.000079176564"
         }
       ],
       "ResponseHeaders": [
@@ -11382,15 +11382,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12632"
+          "Value": "12629"
         },
         {
           "Name": "ETag",
-          "Value": "\"pccaIDFxZOAeTsDxuYlu28NgznBR6ccZ2ShA3WGQgME=\""
+          "Value": "\"KVios0IDbdTgVe6bBF/on4ij8Ks+aiBa5F8IM9+g/ZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:50:38 GMT"
+          "Value": "Sun, 14 Dec 2025 20:06:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11410,19 +11410,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"h5YPrBN5hag5/xZQ7UTLKoIQCcpritlPfaNTfrMjhig=\""
+          "Value": "W/\"IHdBW8e1qruOuvKssx+P18SUi+oBvH8TuQii1/9I3UU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-h5YPrBN5hag5/xZQ7UTLKoIQCcpritlPfaNTfrMjhig="
+          "Value": "sha256-IHdBW8e1qruOuvKssx+P18SUi+oBvH8TuQii1/9I3UU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-7ch7b64tvi.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/7ya2198ina-cdgoo2oh5s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11431,7 +11431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12632"
+          "Value": "12629"
         },
         {
           "Name": "Content-Type",
@@ -11439,11 +11439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pccaIDFxZOAeTsDxuYlu28NgznBR6ccZ2ShA3WGQgME=\""
+          "Value": "\"KVios0IDbdTgVe6bBF/on4ij8Ks+aiBa5F8IM9+g/ZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:50:38 GMT"
+          "Value": "Sun, 14 Dec 2025 20:06:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11461,7 +11461,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pccaIDFxZOAeTsDxuYlu28NgznBR6ccZ2ShA3WGQgME="
+          "Value": "sha256-KVios0IDbdTgVe6bBF/on4ij8Ks+aiBa5F8IM9+g/ZU="
         }
       ]
     },
@@ -71799,168 +71799,7 @@
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Client.nexq367mos.wasm",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22805"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nexq367mos"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.nexq367mos.wasm",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-nexq367mos.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000102480016"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9757"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nexq367mos"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Client.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.nexq367mos.wasm.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-nexq367mos.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9757"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nexq367mos"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Client.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.pdb",
+      "Route": "_framework/TradeTracker.Client.ax52hmi7j8.pdb",
       "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71970,7 +71809,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28304"
+          "Value": "31520"
         },
         {
           "Name": "Content-Type",
@@ -71978,148 +71817,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg=\""
+          "Value": "\"fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-vribkq53xt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000047605446"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21005"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.pdb.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-vribkq53xt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21005"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Client.vribkq53xt.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "28304"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72129,7 +71831,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vribkq53xt"
+          "Value": "ax52hmi7j8"
         },
         {
           "Name": "label",
@@ -72137,18 +71839,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg="
+          "Value": "sha256-fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8="
         }
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Client.vribkq53xt.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-vribkq53xt.gz",
+      "Route": "_framework/TradeTracker.Client.ax52hmi7j8.pdb",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-ax52hmi7j8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000047605446"
+          "Quality": "0.000042126548"
         }
       ],
       "ResponseHeaders": [
@@ -72158,15 +71860,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21005"
+          "Value": "23737"
         },
         {
           "Name": "ETag",
-          "Value": "\"1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4=\""
+          "Value": "\"qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72186,13 +71888,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg=\""
+          "Value": "W/\"fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vribkq53xt"
+          "Value": "ax52hmi7j8"
         },
         {
           "Name": "label",
@@ -72200,13 +71902,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y3+oSeGElpNs8KS4pjuYOuGF0UqK8wpFmC8r7Fbiclg="
+          "Value": "sha256-fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8="
         }
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Client.vribkq53xt.pdb.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-vribkq53xt.gz",
+      "Route": "_framework/TradeTracker.Client.ax52hmi7j8.pdb.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-ax52hmi7j8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72215,7 +71917,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21005"
+          "Value": "23737"
         },
         {
           "Name": "Content-Type",
@@ -72223,11 +71925,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4=\""
+          "Value": "\"qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72245,7 +71947,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vribkq53xt"
+          "Value": "ax52hmi7j8"
         },
         {
           "Name": "label",
@@ -72253,7 +71955,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1YOZMqj72+UWoS9dgErIS789NgQxsHbyskLBMhmPCd4="
+          "Value": "sha256-qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.pdb",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.pdb",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-ax52hmi7j8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000042126548"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23737"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fjNlhP+qL+tIkGVif6sOBR5UW1EjXHryd9kzHz4jYy8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.pdb.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/wbajkc0sib-ax52hmi7j8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmXA5PB7vG4buvGsGvIjC1bUZVQqB43F79TodKofeYU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.qyfjh98woc.wasm",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Client.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qyfjh98woc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Client.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.qyfjh98woc.wasm",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-qyfjh98woc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000087627059"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11411"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qyfjh98woc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Client.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Client.qyfjh98woc.wasm.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-qyfjh98woc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qyfjh98woc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Client.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y="
         }
       ]
     },
@@ -72268,7 +72268,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22805"
+          "Value": "26901"
         },
         {
           "Name": "Content-Type",
@@ -72276,11 +72276,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg=\""
+          "Value": "\"bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72290,18 +72290,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg="
+          "Value": "sha256-bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Client.wasm",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-nexq367mos.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-qyfjh98woc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000102480016"
+          "Quality": "0.000087627059"
         }
       ],
       "ResponseHeaders": [
@@ -72311,15 +72311,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9757"
+          "Value": "11411"
         },
         {
           "Name": "ETag",
-          "Value": "\"4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s=\""
+          "Value": "\"eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72339,19 +72339,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg=\""
+          "Value": "W/\"bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n9aq2QSfrLMM9iJ8kBEXtLfzq23D+pbyfDoHQLfjIPg="
+          "Value": "sha256-bjOWx+elmmXI0PcVLoEwkRDHc5uBanekKJjVmOYVWHs="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Client.wasm.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-nexq367mos.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/9krefezz88-qyfjh98woc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72360,7 +72360,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9757"
+          "Value": "11411"
         },
         {
           "Name": "Content-Type",
@@ -72368,11 +72368,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s=\""
+          "Value": "\"eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:52:34 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72390,173 +72390,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4wpymkKEfj2K35Af1Gle1YrS88YHjFGyUuebB6eqw4s="
+          "Value": "sha256-eAqRnMbqIQmS3+aQfqAtDxDU5/D+6cAcKCBmlnW2G2Y="
         }
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Shared.avuflyvd73.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12156"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "avuflyvd73"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Shared.avuflyvd73.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-avuflyvd73.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000139392250"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7173"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "avuflyvd73"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Shared.avuflyvd73.pdb.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-avuflyvd73.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7173"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "avuflyvd73"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TradeTracker.Shared.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TradeTracker.Shared.hu9dr73yya.wasm",
+      "Route": "_framework/TradeTracker.Shared.a0iospse16.wasm",
       "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72566,7 +72405,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6421"
+          "Value": "7957"
         },
         {
           "Name": "Content-Type",
@@ -72574,11 +72413,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=\""
+          "Value": "\"KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72588,7 +72427,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hu9dr73yya"
+          "Value": "a0iospse16"
         },
         {
           "Name": "label",
@@ -72596,18 +72435,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI="
+          "Value": "sha256-KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY="
         }
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Shared.hu9dr73yya.wasm",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-hu9dr73yya.gz",
+      "Route": "_framework/TradeTracker.Shared.a0iospse16.wasm",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-a0iospse16.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000394632991"
+          "Quality": "0.000305810398"
         }
       ],
       "ResponseHeaders": [
@@ -72617,15 +72456,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2533"
+          "Value": "3269"
         },
         {
           "Name": "ETag",
-          "Value": "\"o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ=\""
+          "Value": "\"KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72645,13 +72484,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=\""
+          "Value": "W/\"KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hu9dr73yya"
+          "Value": "a0iospse16"
         },
         {
           "Name": "label",
@@ -72659,13 +72498,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI="
+          "Value": "sha256-KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY="
         }
       ]
     },
     {
-      "Route": "_framework/TradeTracker.Shared.hu9dr73yya.wasm.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-hu9dr73yya.gz",
+      "Route": "_framework/TradeTracker.Shared.a0iospse16.wasm.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-a0iospse16.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72674,7 +72513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2533"
+          "Value": "3269"
         },
         {
           "Name": "Content-Type",
@@ -72682,11 +72521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ=\""
+          "Value": "\"KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72704,7 +72543,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hu9dr73yya"
+          "Value": "a0iospse16"
         },
         {
           "Name": "label",
@@ -72712,7 +72551,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ="
+          "Value": "sha256-KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Shared.p1m7c3s08m.pdb",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/bin/Debug/net9.0/wwwroot/_framework/TradeTracker.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1m7c3s08m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Shared.p1m7c3s08m.pdb",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-p1m7c3s08m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000134408602"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7439"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1m7c3s08m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TradeTracker.Shared.p1m7c3s08m.pdb.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-p1m7c3s08m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1m7c3s08m"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TradeTracker.Shared.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w="
         }
       ]
     },
@@ -72727,7 +72727,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12156"
+          "Value": "12880"
         },
         {
           "Name": "Content-Type",
@@ -72735,11 +72735,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=\""
+          "Value": "\"XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:48 GMT"
+          "Value": "Sun, 14 Dec 2025 20:40:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72749,18 +72749,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A="
+          "Value": "sha256-XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Shared.pdb",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-avuflyvd73.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-p1m7c3s08m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000139392250"
+          "Quality": "0.000134408602"
         }
       ],
       "ResponseHeaders": [
@@ -72770,15 +72770,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7173"
+          "Value": "7439"
         },
         {
           "Name": "ETag",
-          "Value": "\"4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY=\""
+          "Value": "\"em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72798,19 +72798,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A=\""
+          "Value": "W/\"XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+oghgoNcacjkZmM8Plf61askmRj3Qr5y4o5LYG34D6A="
+          "Value": "sha256-XaOud5NGIylcbDsRS9NaXOv1FXXParemqOzb07Lb3kc="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Shared.pdb.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-avuflyvd73.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/liw5cjvie6-p1m7c3s08m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72819,7 +72819,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7173"
+          "Value": "7439"
         },
         {
           "Name": "Content-Type",
@@ -72827,11 +72827,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY=\""
+          "Value": "\"em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72849,7 +72849,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4sv9cNxziGcaiyYACn6LMWOk6irMtRlIk6OfzkF/yGY="
+          "Value": "sha256-em+3pCWSCtg9yElVsz4Mws+kxozxdEn5wfj8IYtIr3w="
         }
       ]
     },
@@ -72864,7 +72864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6421"
+          "Value": "7957"
         },
         {
           "Name": "Content-Type",
@@ -72872,11 +72872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=\""
+          "Value": "\"KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72886,18 +72886,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI="
+          "Value": "sha256-KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Shared.wasm",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-hu9dr73yya.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-a0iospse16.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000394632991"
+          "Quality": "0.000305810398"
         }
       ],
       "ResponseHeaders": [
@@ -72907,15 +72907,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2533"
+          "Value": "3269"
         },
         {
           "Name": "ETag",
-          "Value": "\"o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ=\""
+          "Value": "\"KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72935,19 +72935,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI=\""
+          "Value": "W/\"KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-52Vs8JxrOA3fLTzdhXQc9rEwq2LyS3bQAg9sWSfxiGI="
+          "Value": "sha256-KlH/IpTgnkk5FADNYLeKr463Rpriz1j6VPzQlEvykCY="
         }
       ]
     },
     {
       "Route": "_framework/TradeTracker.Shared.wasm.gz",
-      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-hu9dr73yya.gz",
+      "AssetFile": "/home/matej/Projects/TradeTracker/TradeTracker.Client/obj/Debug/net9.0/compressed/z5085ccjus-a0iospse16.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72956,7 +72956,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2533"
+          "Value": "3269"
         },
         {
           "Name": "Content-Type",
@@ -72964,11 +72964,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ=\""
+          "Value": "\"KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 14 Dec 2025 17:45:50 GMT"
+          "Value": "Sun, 14 Dec 2025 20:43:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72986,7 +72986,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o/iosFYaxCZQytteiLC8dPSW+qXhapxLIRCN4XfXAUQ="
+          "Value": "sha256-KFbCxQe7htdkCwQNS2kb3DWUyn5xsroPqcTp3xqFr7g="
         }
       ]
     },

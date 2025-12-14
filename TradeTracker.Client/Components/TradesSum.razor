@@ -1,0 +1,15 @@
+@using TradeTracker.Shared.Models
+
+
+
+
+
+
+
+
+
+@code {
+    [Parameter]
+    [EditorRequired]
+    public List<TradeToShare> Trades { get; set; } = default!;
+}

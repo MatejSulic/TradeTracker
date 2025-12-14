@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TradeTracker.API.Data;
 
@@ -10,9 +11,11 @@ using TradeTracker.API.Data;
 namespace TradeTracker.API.Migrations
 {
     [DbContext(typeof(TradeTrackerDbContext))]
-    partial class TradeTrackerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251214184426_ZmenaTypuAmountDouble")]
+    partial class ZmenaTypuAmountDouble
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
