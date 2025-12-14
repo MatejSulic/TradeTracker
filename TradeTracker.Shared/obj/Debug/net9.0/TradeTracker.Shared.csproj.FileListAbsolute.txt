@@ -5,8 +5,8 @@
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.AssemblyInfoInputs.cache
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.AssemblyInfo.cs
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.csproj.CoreCompileInputs.cache
+/home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.sourcelink.json
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.dll
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/refint/TradeTracker.Shared.dll
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.pdb
 /home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/ref/TradeTracker.Shared.dll
-/home/matej/Projects/TradeTracker/TradeTracker.Shared/obj/Debug/net9.0/TradeTracker.Shared.sourcelink.json

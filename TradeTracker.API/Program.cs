@@ -1,24 +1,34 @@
 using Microsoft.EntityFrameworkCore;
 using TradeTracker.API.Data;
-
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1️⃣ Přidej DbContext
+// Přidání DbContext + SQLite
 builder.Services.AddDbContext<TradeTrackerDbContext>(options =>
     options.UseSqlite("Data Source=TradeTracker.db"));
 
-// 2️⃣ Přidej podporu pro controllery
+// Přidání controllerů
 builder.Services.AddControllers();
 
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "TradeTracker API", Version = "v1" });
+});
 
 var app = builder.Build();
 
+// Middleware
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TradeTracker API v1"));
+}
+
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
-// 5️⃣ Map controllers
 app.MapControllers();
 
 app.Run();
