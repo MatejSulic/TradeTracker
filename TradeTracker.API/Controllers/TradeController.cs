@@ -86,4 +86,12 @@ public class TradeController : ControllerBase
 
         return Ok(response);
     }
+
+    [HttpPost("filter")]
+    public async Task<ActionResult<IEnumerable<Models.Trade>>> GetFilteredTrades( MetricsRequest request)
+    {
+        var trades = _context.GetFilteredTrades(request);
+        return Ok(trades);
+    }
+    
 }

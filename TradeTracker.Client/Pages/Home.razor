@@ -8,14 +8,11 @@
 
 @if (trades == null)
 {
-    <p><em>Načítání obchodních dat...</em></p>
-}
-else if (trades.Length == 0)
-{
-    <p>Nebyly nalezeny žádné obchody.</p>
+    <MudProgressCircular Indeterminate="true" Color="Color.Primary" Class="ma-4" />
 }
 else
 {
+   
    <MudPaper Class="pa-4 ma-4 d-flex flex-column" Elevation="4" Style="height: calc(100vh - 100px);">
     
     <!-- Summary Section - Fixed -->
@@ -31,7 +28,7 @@ else
 
     <!-- Trades Grid - Scrollable -->
     <MudPaper Class="pa-4 flex-grow-1 overflow-y-auto " Outlined="true">
-        <MudGrid Spacing="3">
+        <MudGrid Spacing="4">
             @if (trades?.Any() == true)
             {
                 @foreach (var trade in trades)
@@ -43,16 +40,17 @@ else
             }
             else
             {
-                <MudItem xs="12">
-                    <MudAlert Severity="Severity.Info" Class="d-flex justify-center">
+                <MudItem xs="12" sm="12" md="12" lg="12" xl="12" Class="d-flex justify-center mt-6" Style="height: 55vh;">
+                    <MudText Class="d-flex justify-center" Typo="Typo.h4" >
                         Žádné obchody k zobrazení
-                    </MudAlert>
+                    </MudText>
                 </MudItem>
             }
         </MudGrid>
     </MudPaper>
     
 </MudPaper>
+
 }
 
 @code {
@@ -84,7 +82,7 @@ else
         metrics = await GetMetricsResponse(metricsRequest);
 
         // pokud bys chtěl filtrovat i obchody:
-        // trades = await Http.PostAsJsonAsync<TradeToShare[]>("api/Trade/filter", metricsRequest);
+        trades = await GetFilteredTrades(metricsRequest);
     }
 
     private async Task<MetricsResponse> GetMetricsResponse(MetricsRequest request)
@@ -93,5 +91,13 @@ else
         response.EnsureSuccessStatusCode();
 
         return (await response.Content.ReadFromJsonAsync<MetricsResponse>())!;
+    }
+
+    private async Task<TradeToShare[]> GetFilteredTrades(MetricsRequest request)
+    {
+        var response = await Http.PostAsJsonAsync("api/Trade/filter", request);
+        response.EnsureSuccessStatusCode();
+
+        return (await response.Content.ReadFromJsonAsync<TradeToShare[]>())!;
     }
 }
