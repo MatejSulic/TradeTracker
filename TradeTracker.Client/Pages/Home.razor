@@ -1,10 +1,10 @@
 ﻿@page "/"
 @using System.Net.Http.Json
-@inject HttpClient Http 
-@using TradeTracker.Shared.Models 
+@using TradeTracker.Shared.Models
 @using TradeTracker.Client.Components
 @using MudBlazor
 
+@inject HttpClient Http
 
 @if (trades == null)
 {
@@ -16,35 +16,82 @@ else if (trades.Length == 0)
 }
 else
 {
-
-
-
-
-   <MudContainer Class="d-flex flex-wrap gap-2" Spacing="2">
-
-    @foreach (var trade in trades)
-    {
-        <TradeCard Trade="trade" />
-    }
-
-   </MudContainer>
-
+   <MudPaper Class="pa-4 ma-4 d-flex flex-column" Elevation="4" Style="height: calc(100vh - 100px);">
     
+    <!-- Summary Section - Fixed -->
+        <TradesSum Metrics="@metrics" />
+
+    <MudDivider Class="ma-1"/>
+
+    <!-- Filter Section - Fixed -->
+    <MudStack Spacing="3" Class="mb-4">
+        <TradeFilter Filter="@metricsRequest"
+                     OnFilterChanged="HandleFilterChanged" />
+    </MudStack>
+
+    <!-- Trades Grid - Scrollable -->
+    <MudPaper Class="pa-4 flex-grow-1 overflow-y-auto " Outlined="true">
+        <MudGrid Spacing="3">
+            @if (trades?.Any() == true)
+            {
+                @foreach (var trade in trades)
+                {
+                    <MudItem xs="12" sm="6" md="4" lg="3" xl="2">
+                        <TradeCard Trade="trade" />
+                    </MudItem>
+                }
+            }
+            else
+            {
+                <MudItem xs="12">
+                    <MudAlert Severity="Severity.Info" Class="d-flex justify-center">
+                        Žádné obchody k zobrazení
+                    </MudAlert>
+                </MudItem>
+            }
+        </MudGrid>
+    </MudPaper>
+    
+</MudPaper>
 }
 
 @code {
-    private TradeToShare[]? trades; 
+    private TradeToShare[]? trades;
+    private MetricsResponse? metrics;
+
+    private MetricsRequest metricsRequest = new();
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             trades = await Http.GetFromJsonAsync<TradeToShare[]>("api/Trade");
+
+            metrics = await GetMetricsResponse(metricsRequest);
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Chyba při načítání obchodů: {ex.Message}");
             trades = Array.Empty<TradeToShare>();
         }
+    }
+
+    private async Task HandleFilterChanged(MetricsRequest filter)
+    {
+        metricsRequest = filter;
+
+        // znovu načti metriky podle filtru
+        metrics = await GetMetricsResponse(metricsRequest);
+
+        // pokud bys chtěl filtrovat i obchody:
+        // trades = await Http.PostAsJsonAsync<TradeToShare[]>("api/Trade/filter", metricsRequest);
+    }
+
+    private async Task<MetricsResponse> GetMetricsResponse(MetricsRequest request)
+    {
+        var response = await Http.PostAsJsonAsync("api/Trade/metrics", request);
+        response.EnsureSuccessStatusCode();
+
+        return (await response.Content.ReadFromJsonAsync<MetricsResponse>())!;
     }
 }

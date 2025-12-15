@@ -1,0 +1,87 @@
+@using TradeTracker.Shared.Models
+@using TradeTracker.Shared.Enums
+@using System.ComponentModel.DataAnnotations
+
+    
+    <MudStack Row="true" 
+              Spacing="3" 
+              Justify="Justify.FlexStart" 
+              Class="flex-wrap align-center">
+
+        <MudSelect 
+            Label="Trade Result" 
+            Variant="Variant.Outlined"
+            T="TradeResult?"
+            @bind-Value="Filter.Result"
+            Clearable="true"
+            Class="flex-grow-1" Style="min-width: 200px;">
+            <MudSelectItem T="TradeResult?" Value="@(null)">All Results</MudSelectItem>
+            @foreach (TradeResult result in Enum.GetValues(typeof(TradeResult)))
+            {
+                <MudSelectItem T="TradeResult?" Value="@(result)">@result</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudSelect 
+            Label="Trade Type" 
+            Variant="Variant.Outlined"
+            T="TradeType?"
+            @bind-Value="Filter.Type"
+            Clearable="true"
+            Class="flex-grow-1" Style="min-width: 200px;">
+            <MudSelectItem T="TradeType?" Value="@(null)">All Types</MudSelectItem>
+            @foreach (TradeType type in Enum.GetValues(typeof(TradeType)))
+            {
+                <MudSelectItem T="TradeType?" Value="@(type)">@type</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudSelect 
+            Label="Trade Symbol" 
+            Variant="Variant.Outlined"
+            T="TradeSymbol?"
+            @bind-Value="Filter.Symbol"
+            Clearable="true"
+            Class="flex-grow-1" Style="min-width: 200px;">
+            <MudSelectItem T="TradeSymbol?" Value="@(null)">All Symbols</MudSelectItem>
+            @foreach (TradeSymbol symbol in Enum.GetValues(typeof(TradeSymbol)))
+            {
+                <MudSelectItem T="TradeSymbol?" Value="@(symbol)">@symbol</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudDatePicker 
+            Label="From Date" 
+            Variant="Variant.Outlined"
+            @bind-Date="Filter.StartDate"
+            Clearable="true"
+            Class="flex-grow-1" Style="min-width: 200px;" />
+
+        <MudDatePicker 
+            Label="To Date" 
+            Variant="Variant.Outlined"
+            @bind-Date="Filter.EndDate"
+            Clearable="true"
+            Class="flex-grow-1" Style="min-width: 200px;" />
+
+        <MudButton 
+            Variant="Variant.Filled" 
+            Color="Color.Primary" 
+            OnClick="ApplyFilter"
+            Class="align-self-end mb-4">
+            Apply Filter
+        </MudButton>
+
+    </MudStack>
+@code {
+    [Parameter]
+    public MetricsRequest Filter { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<MetricsRequest> OnFilterChanged { get; set; }
+
+    private async Task ApplyFilter()
+    {
+        await OnFilterChanged.InvokeAsync(Filter);
+    }
+}

@@ -1,15 +1,60 @@
 @using TradeTracker.Shared.Models
 
-
-
-
-
-
-
-
+@if(Metrics == null)
+{
+    <p><em>Načítání metrik...</em></p>
+}
+else
+{
+    <MudPaper Class="pa-3 d-flex flex-row justify-space-around align-center" Outlined="true">
+    
+    <!-- Total Trades -->
+    <MudStack Spacing="1" Class="text-center flex-grow-1">
+        <MudText Typo="Typo.subtitle2" Color="Color.Default">Total Trades</MudText>
+        <MudText Typo="Typo.h5">@Metrics.TotalTrades</MudText>
+    </MudStack>
+    
+    <MudDivider Vertical="true" FlexItem="true" Class="mx-4" />
+    
+    <!-- Win Rate -->
+    <MudStack Spacing="1" Class="text-center flex-grow-1">
+        <MudText Typo="Typo.subtitle2" Color="Color.Default">Win Rate</MudText>
+        <MudText Typo="Typo.h5">@Metrics.WinRate %</MudText>
+    </MudStack>
+    
+    <MudDivider Vertical="true" FlexItem="true" Class="mx-4" />
+    
+    <!-- Average RRR -->
+    <MudStack Spacing="1" Class="text-center flex-grow-1">
+        <MudText Typo="Typo.subtitle2" Color="Color.Default">Average RRR</MudText>
+        <MudText Typo="Typo.h5">@Metrics.AverageRRR</MudText>
+    </MudStack>
+    
+    <MudDivider Vertical="true" FlexItem="true" Class="mx-4" />
+    
+    <!-- Total PnL -->
+    <MudStack Spacing="1" Class="text-center flex-grow-1">
+        <MudText Typo="Typo.subtitle2" Color="Color.Default">Total PnL</MudText>
+        <MudText Typo="Typo.h5" Color="@(Metrics.TotalPnL >= 0 ? Color.Success : Color.Error)">
+            @Metrics.TotalPnL.ToString("+#,##0.00;-#,##0.00;0")
+        </MudText>
+    </MudStack>
+    
+    <MudDivider Vertical="true" FlexItem="true" Class="mx-4" />
+    
+    <!-- Max Streak -->
+    <MudStack Spacing="1" Class="text-center flex-grow-1">
+        <MudText Typo="Typo.subtitle2" Color="Color.Default">Max Streak</MudText>
+        <MudStack Row="true" Spacing="3" Class="justify-center">
+            <MudText Typo="Typo.h6" Color="Color.Success">+@Metrics.MaxWinStreak</MudText>
+            <MudText Typo="Typo.h6" Color="Color.Error">-@Metrics.MaxLossStreak</MudText>
+        </MudStack>
+    </MudStack>
+    
+</MudPaper>
+}
 
 @code {
     [Parameter]
-    [EditorRequired]
-    public List<TradeToShare> Trades { get; set; } = default!;
+    public MetricsResponse? Metrics { get; set; } = default!;
 }

@@ -3,6 +3,9 @@
 
 
 <MudThemeProvider Theme="MyCustomTheme" IsDarkMode="true" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudPopoverProvider /> 
 
 <MudLayout>
     <MudAppBar Elevation="1">
@@ -10,7 +13,7 @@
         <MudSpacer />
         <MudIconButton Icon="@Icons.Material.Rounded.AddCircle" Color="Color.Inherit" Edge="Edge.End" />
     </MudAppBar>
-    <MudMainContent>
+    <MudMainContent Class="px-0 m-0 w-100">
         @Body
     </MudMainContent>
 </MudLayout>
