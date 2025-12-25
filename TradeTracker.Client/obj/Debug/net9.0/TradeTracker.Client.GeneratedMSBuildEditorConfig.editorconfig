@@ -43,16 +43,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UcmFkZXNTdW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/matej/Projects/TradeTracker/TradeTracker.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/home/matej/Projects/TradeTracker/TradeTracker.Client/Pages/CreateTrade.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlVHJhZGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/matej/Projects/TradeTracker/TradeTracker.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/matej/Projects/TradeTracker/TradeTracker.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/matej/Projects/TradeTracker/TradeTracker.Client/_Imports.razor]

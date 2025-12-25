@@ -1,0 +1,132 @@
+@page "/create-trade"
+@using TradeTracker.Shared.Models
+@using TradeTracker.Shared.Enums
+@using Microsoft.AspNetCore.Components.Forms
+@using static System.Net.WebRequestMethods
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<MudContainer MaxWidth="MaxWidth.Medium" Class="mt-4">
+    <MudPaper Class="pa-8" Elevation="3">
+        <MudText Typo="Typo.h5" GutterBottom="true" Class="mb-6">New Trade</MudText>
+        
+        <MudForm @ref="form" @bind-IsValid="@success">
+            <MudGrid Spacing="3">
+                @* Trade Date *@
+                <MudItem xs="12" sm="6">
+                    <MudDatePicker Label="Trade Date" @bind-Date="tradeDateWrapper" Required="true" Variant="Variant.Outlined" />
+                </MudItem>
+
+                @* Symbol *@
+                <MudItem xs="12" sm="6">
+                    <MudSelect T="TradeSymbol" Label="Symbol" @bind-Value="trade.Symbol" Required="true" Variant="Variant.Outlined">
+                        @foreach (TradeSymbol item in Enum.GetValues(typeof(TradeSymbol)))
+                        {
+                            <MudSelectItem Value="@item">@item.ToString()</MudSelectItem>
+                        }
+                    </MudSelect>
+                </MudItem>
+
+                @* Trade Type (Long/Short) - Hezčí přepínač *@
+                <MudItem xs="12" sm="6">
+                    <MudText Typo="Typo.caption" Class="ml-1">Position Type</MudText>
+                    <MudToggleGroup T="TradeType" @bind-Value="trade.Type" SelectionMode="SelectionMode.SingleSelection" Color="Color.Primary" CheckMark="false" FixedContent="true">
+                        <MudToggleItem Value="TradeType.Long" Text="LONG" />
+                        <MudToggleItem Value="TradeType.Short" Text="SHORT" />
+                    </MudToggleGroup>
+                </MudItem>
+
+                @* Trade Result - Barevně odlišené přepínače *@
+                <MudItem xs="12" sm="6">
+                    <MudText Typo="Typo.caption" Class="ml-1">Trade Result</MudText>
+                    <MudToggleGroup T="TradeResult" @bind-Value="trade.Result" SelectionMode="SelectionMode.SingleSelection" CheckMark="false" FixedContent="true">
+                        <MudToggleItem Value="TradeResult.Win" Text="WIN" UnselectedColor="Color.Default" SelectedColor="Color.Success" />
+                        <MudToggleItem Value="TradeResult.Loss" Text="LOSS" UnselectedColor="Color.Default" SelectedColor="Color.Error" />
+                        <MudToggleItem Value="TradeResult.Breakeven" Text="BE" UnselectedColor="Color.Default" SelectedColor="Color.Warning" />
+                    </MudToggleGroup>
+                </MudItem>
+
+                @* Prices *@
+                <MudItem xs="12" sm="4">
+                    <MudNumericField Label="Entry Price" @bind-Value="trade.EntryPrice" Format="N2" HideSpinButtons="true" Variant="Variant.Outlined" />
+                </MudItem>
+                <MudItem xs="12" sm="4">
+                    <MudNumericField Label="Take Profit" @bind-Value="trade.TakeProfitPrice" Format="N2" HideSpinButtons="true" Variant="Variant.Outlined" />
+                </MudItem>
+                <MudItem xs="12" sm="4">
+                    <MudNumericField Label="Stop Loss" @bind-Value="trade.StopLossPrice" Format="N2" HideSpinButtons="true" Variant="Variant.Outlined" />
+                </MudItem>
+
+                @* Notes *@
+                <MudItem xs="12">
+                    <MudTextField Label="Notes" @bind-Value="trade.Notes" Lines="3" Variant="Variant.Outlined" />
+                </MudItem>
+
+                @* Image Picker *@
+                <MudItem xs="12">
+                    <MudFileUpload T="IBrowserFile" FilesChanged="HandleFilesChanged">
+                        <ActivatorContent>
+                            <MudButton Variant="Variant.Outlined"
+                                       Color="Color.Info"
+                                       FullWidth="true"
+                                       StartIcon="@Icons.Material.Filled.PhotoCamera"
+                                       Style="text-transform:none">
+                                @(string.IsNullOrEmpty(trade.ScreenshotPath) ? "Click to upload screenshot" : $"Selected: {trade.ScreenshotPath}")
+                            </MudButton>
+                        </ActivatorContent>
+                    </MudFileUpload>
+                </MudItem>
+
+                @* Actions *@
+                <MudItem xs="12" Class="d-flex justify-end mt-4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Submit" Size="Size.Large" Class="px-10">SAVE TRADE</MudButton>
+                    <MudButton Variant="Variant.Text" Color="Color.Default" OnClick="ResetForm" Class="ml-4">Reset</MudButton>
+                </MudItem>
+            </MudGrid>
+        </MudForm>
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private MudForm form;
+    private bool success;
+    private TradeToShare trade = new TradeToShare { TradeDate = DateTime.Now, Type = TradeType.Long, Result = TradeResult.Win };
+
+    private DateTime? tradeDateWrapper {
+        get => trade.TradeDate;
+        set => trade.TradeDate = value ?? DateTime.Now;
+    }
+
+    private void HandleFilesChanged(IBrowserFile file)
+    {
+        if (file != null)
+        {
+            trade.ScreenshotPath = file.Name;
+        }
+    }
+
+    private async Task ResetForm()
+    {
+        trade = new TradeToShare { TradeDate = DateTime.Now, Type = TradeType.Long, Result = TradeResult.Win };
+        await form.ResetAsync();
+        StateHasChanged();
+    }
+
+    private async Task Submit()
+    {
+        await form.Validate();
+        if (form.IsValid)
+        {
+            var response = await Http.PostAsJsonAsync("api/Trade", trade);
+            if (response.IsSuccessStatusCode)
+            {
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                string Message = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Error submitting trade: {Message}");
+            }
+        }
+    }
+}

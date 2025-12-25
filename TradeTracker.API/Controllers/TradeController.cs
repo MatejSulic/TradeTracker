@@ -33,11 +33,24 @@ public class TradeController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<Models.Trade>> CreateTrade(Trade trade)
+    public async Task<ActionResult<Models.Trade>> CreateTrade(TradeToShare trade)
     {
-        _context.Trades.Add(trade);
+        Trade trade1 = new Trade
+        {
+            TradeDate = trade.TradeDate,
+            Symbol = trade.Symbol,
+            Type = trade.Type,
+            Result = trade.Result,
+            EntryPrice = trade.EntryPrice,
+            TakeProfitPrice = trade.TakeProfitPrice,
+            StopLossPrice = trade.StopLossPrice,
+            PnL = trade.PnL,
+            Notes = trade.Notes,
+            ScreenshotPath = trade.ScreenshotPath
+        };
+        _context.Trades.Add(trade1);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetTrade), new { id = trade.Id }, trade);
+        return CreatedAtAction(nameof(GetTrade), new { id = trade1.Id }, trade1);
     }
 
     [HttpPut("{id}")]

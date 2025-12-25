@@ -28,7 +28,7 @@ else
 
     <!-- Trades Grid - Scrollable -->
     <MudPaper Class="pa-4 flex-grow-1 overflow-y-auto " Outlined="true">
-        <MudGrid Spacing="4">
+        <MudGrid Spacing="4" Style="min-height: 60vh;">
             @if (trades?.Any() == true)
             {
                 @foreach (var trade in trades)
